@@ -1,4 +1,4 @@
-const getHealthStatus = require('./index');
+import { getHealthStatus } from './index';
 
 test('returns "healthy" when health is more than 50', () => {
   const character = { name: 'Mage', health: 90 };
